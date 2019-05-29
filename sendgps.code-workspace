@@ -1,0 +1,13 @@
+{
+	"folders": [
+		{
+			"path": "."
+		}
+	],
+	"settings": {
+		"terminal.integrated.env.windows": {
+			"PATH": "C:\\Users\\KBM15\\.platformio\\penv\\Scripts;C:\\Users\\KBM15\\.platformio\\penv;C:\\Program Files\\Java\\jdk1.8.0_212\\bin;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Windows\\System32\\OpenSSH\\;C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;C:\\Program Files\\NVIDIA Corporation\\NVIDIA NvDLISR;C:\\Program Files\\nodejs\\;C:\\Program Files\\PuTTY\\;C:\\Git\\cmd;;C:\\Program Files (x86)\\Gpg4win\\..\\GnuPG\\bin;C:\\Users\\KBM15\\AppData\\Local\\Programs\\Python\\Python37-32\\Scripts\\;C:\\Users\\KBM15\\AppData\\Local\\Programs\\Python\\Python37-32\\;C:\\Users\\KBM15\\AppData\\Local\\Microsoft\\WindowsApps;;C:\\Users\\KBM15\\AppData\\Local\\Programs\\Microsoft VS Code\\bin;C:\\Users\\KBM15\\AppData\\Roaming\\npm;C:\\Program Files\\Java\\jdk1.8.0_212\\bin;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Windows\\System32\\OpenSSH\\;C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;C:\\Program Files\\NVIDIA Corporation\\NVIDIA NvDLISR;C:\\Program Files\\nodejs\\;C:\\Program Files\\PuTTY\\;C:\\Git\\cmd;;C:\\Program Files (x86)\\Gpg4win\\..\\GnuPG\\bin;C:\\Users\\KBM15\\AppData\\Local\\Programs\\Python\\Python37-32\\Scripts\\;C:\\Users\\KBM15\\AppData\\Local\\Programs\\Python\\Python37-32\\;C:\\Users\\KBM15\\AppData\\Local\\Microsoft\\WindowsApps;;C:\\Users\\KBM15\\AppData\\Local\\Programs\\Microsoft VS Code\\bin;C:\\Users\\KBM15\\AppData\\Roaming\\npm",
+			"PLATFORMIO_CALLER": "vscode"
+		}
+	}
+}
