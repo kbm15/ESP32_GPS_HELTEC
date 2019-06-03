@@ -74,8 +74,9 @@ float longitude;
 #define RST_SX127x   14   // GPIO14 -- SX127x's RESET
 #define DIO0    26   // GPIO26 -- SX127x's IRQ(Interrupt Request)
 #define DIO1    35   // GPIO33 -- SX127x's IRQ(Interrupt Request)
-#define GPS_RX 22
-#define GPS_TX 23
+#define GPS_RX 23
+#define GPS_TX 22
+
 
 HardwareSerial GPSSerial(1);
 
@@ -160,13 +161,17 @@ void get_coords () {
     gps.encode(GPSSerial.read());
   latitude  = gps.location.lat();
   longitude = gps.location.lng();
+  Serial.print("Latitud: ");
+  Serial.println(latitude);
+  Serial.print("Longitud: ");
+  Serial.println(longitude);
   // Only update if location is valid and has changed
   if ((latitude && longitude) && latitude != latlong.f[0]
       && longitude != latlong.f[1]) {
     latlong.f[0] = latitude;
     latlong.f[1] = longitude;
     for (int i = 0; i < 8; i++){
-      Serial.print(latlong.bytes[i], HEX);
+      //Serial.print(latlong.bytes[i], HEX);
       Data[i]=latlong.bytes[i];
       }
     Serial.println();
